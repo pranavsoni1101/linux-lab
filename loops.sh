@@ -5,3 +5,9 @@
 # do
 # ........
 # done
+
+# Syntax while loop:
+# wgule [ condition ]
+# do
+# ........
+# done
