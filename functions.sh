@@ -8,7 +8,8 @@ a=$1
 b=$2 
 
 add () {
-    echo "addition $(( $a + $b))"
+    add="$(( $a + $b))"
+    return $add
 }
 
 subtraction () {
@@ -28,6 +29,7 @@ modulous () {
 }
 
 add
+echo $?
 subtraction
 multiplication
 division
