@@ -11,3 +11,9 @@
 # do
 # ........
 # done
+
+# Syntax until loop: 
+# until [ condition ]
+# do
+# ......
+# done
